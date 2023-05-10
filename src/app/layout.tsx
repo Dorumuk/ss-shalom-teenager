@@ -15,10 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={sans.className}>
-      <body className="flex flex-col min-h-screen w-full max-w-screen-2xl mx-auto">
+      <body className="flex flex-col w-full max-w-screen-2xl mx-auto">
         <NextAuthProvider>
           <Header />
-          <main className="grow">{children}</main>
+          <main className="grow min-h-screen">{children}</main>
           <Footer />
         </NextAuthProvider>
       </body>

@@ -8,7 +8,7 @@ export default function Header() {
         <h1 className="text-3xl font-bold">Shalom</h1>
       </Link>
       <nav className="flex gap-4 items-center">
-        <Link className="px-2" href="#">
+        <Link className="px-2" href="/posts">
           Posts
         </Link>
         <Link className="px-2" href="/lunch_menu">

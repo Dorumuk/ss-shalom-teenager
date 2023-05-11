@@ -3,6 +3,9 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+// react-multi-carousel가 이 컴포넌트를 통해서만 사용되게 만들어서,
+// 컴포넌트 교체를 쉽게하거나 재사용성을 높인다.
+
 type Props = {
   children: React.ReactNode;
 };

@@ -14,5 +14,9 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // @tailwindcss/typography 플러그인을 추가해줘야, 마크다운 스타일이 초기화되는 것을 막을 수 있다.
+    // https://tailwindcss.com/docs/plugins#typography
+    require('@tailwindcss/typography'),
+  ],
 }

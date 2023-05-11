@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg_cake from "../../../public/images/bg_cake.jpg";
+import bg_cake from "/public/images/bg_cake.jpg";
 
 export default function Hero() {
   return (

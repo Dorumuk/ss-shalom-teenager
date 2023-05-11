@@ -1,5 +1,5 @@
-import CarouselPosts from "./components/CarouselPosts";
-import Hero from "./components/Hero";
+import CarouselPosts from "../components/CarouselPosts";
+import Hero from "../components/Hero";
 
 export default function HomePage() {
   return (

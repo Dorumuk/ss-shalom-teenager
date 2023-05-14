@@ -14,6 +14,9 @@ export default function Header() {
         <Link className="px-2" href="/lunch_menu">
           Lunch Menu
         </Link>
+        <Link className="px-2" href="/contact">
+          Contact
+        </Link>
         <SignInBtn />
       </nav>
     </header>
